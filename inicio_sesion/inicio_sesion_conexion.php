@@ -1,23 +1,11 @@
 <?php 
 /*se llama conexion base de datos conexion.php*/
-require_once 'conexion/conexion.php'   ?>
+require_once 'conexion/conexion.php';
+session_start();
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de Sesion</title>
-    <script>
-        
-    </script>
-</head>
-<body>
-    <div class="container">
-        <label for="usr">Correo</label>
-        <input type="text" class="form-control" id="usr">
-        <label for="pws">Contraseña</label>
-        <input type="text" class="form-control" id="pws">
-    </div>
-</body>
-</html>
+if (isset ($_POST['login'])){
+    $usuario
+}
+
+//https://code.tutsplus.com/es/tutorials/create-a-php-login-form--cms-33261
+?>
